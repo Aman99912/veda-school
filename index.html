@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedanta International School · Excellence in Education Since 1998</title>
+  <meta name="description" content="Vedanta International School is a premium CBSE K–12 school in Narwana, Jind blending academic excellence, values and world-class facilities." />
+  <meta name="theme-color" content="#0b1f3a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M24 3 42 9v13c0 11.5-7.7 19.6-18 23-10.3-3.4-18-11.5-18-23V9z' fill='%230b1f3a'/%3E%3Cpath d='M15 20.5c3-.9 6-.6 9 1.2 3-1.8 6-2.1 9-1.2v10.3c-3-.9-6-.6-9 1.2-3-1.8-6-2.1-9-1.2z' fill='%23c9a24b'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- ================= SVG ICON SPRITE ================= -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="crest" viewBox="0 0 48 48">
+      <path d="M24 3 42 9v13c0 11.5-7.7 19.6-18 23-10.3-3.4-18-11.5-18-23V9z" fill="currentColor"/>
+      <path d="M24 7.5 38 12.2V22c0 9-5.8 15.6-14 18.7C15.8 37.6 10 31 10 22v-9.8z" fill="none" stroke="#c9a24b" stroke-width="1.1"/>
+      <path d="M15 20.5c3-.9 6-.6 9 1.2 3-1.8 6-2.1 9-1.2v10.3c-3-.9-6-.6-9 1.2-3-1.8-6-2.1-9-1.2z" fill="#c9a24b"/>
+      <path d="M24 21.7V32" stroke="currentColor" stroke-width="1.2"/>
+      <path d="m24 11.5 1.2 2.6 2.8.3-2.1 1.9.6 2.8-2.5-1.4-2.5 1.4.6-2.8-2.1-1.9 2.8-.3z" fill="#c9a24b"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-3L14 9V3M7 15h10"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5M22 10v6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3c.5 4.5 2.5 6.5 7 7-4.5.5-6.5 2.5-7 7-.5-4.5-2.5-6.5-7-7 4.5-.5 6.5-2.5 7-7z"/><path d="M19 16c.2 1.6.9 2.3 2.5 2.5-1.6.2-2.3.9-2.5 2.5-.2-1.6-.9-2.3-2.5-2.5 1.6-.2 2.3-.9 2.5-2.5z"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.1 24.1 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.6 49.6 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.1 24.1 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.6 49.6 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  </svg>
+
+  <!-- ================= TOP BAR ================= -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="pulse" aria-hidden="true"></span>
+        <span><strong>Admissions Open</strong> for Session 2027–28 · Nursery to Grade XII</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919876543210"><svg class="i"><use href="#i-phone"/></svg>+91 98765 43210</a>
+        <a href="mailto:admissions@vedantaschool.edu.in" class="hide-md"><svg class="i"><use href="#i-mail"/></svg>admissions@vedantaschool.edu.in</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <nav class="container nav" aria-label="Primary">
+      <a href="#home" class="logo" aria-label="Vedanta International School, home">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#crest"/></svg>
+        <span class="logo-text"><strong>Vedanta</strong><span>International School</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="menu-cta"><a href="#contact" class="btn btn-gold">Apply Now <svg class="i"><use href="#i-arrow"/></svg></a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-navy btn-sm">Apply Now <svg class="i"><use href="#i-arrow"/></svg></a>
+        <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge reveal"><span class="tag">Est. 1998</span> Ranked among Narwana's finest day schools</div>
+          <h1 class="reveal" data-delay="1">Where curious minds grow into <em>confident</em> leaders.</h1>
+          <p class="lead reveal" data-delay="2">A future-ready K–12 CBSE school blending academic rigour, timeless values and world-class facilities on a 12-acre green campus.</p>
+
+          <div class="hero-actions reveal" data-delay="3">
+            <a href="#contact" class="btn btn-gold btn-lg">Book a Campus Tour <svg class="i"><use href="#i-arrow"/></svg></a>
+            <a href="#facilities" class="play">
+              <span class="play-icon"><svg class="i"><use href="#i-play"/></svg></span>
+              Explore the Campus
+            </a>
+          </div>
+
+          <div class="hero-trust reveal" data-delay="4">
+            <div class="avatars" aria-hidden="true">
+              <span style="background:#1d3a66">AS</span>
+              <span style="background:#b88d35">RK</span>
+              <span style="background:#6b4e2a">PN</span>
+              <span style="background:#0b1f3a">+</span>
+            </div>
+            <div>
+              <div class="stars" aria-label="Rated 4.9 out of 5">
+                <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+              </div>
+              <p><strong>4.9/5</strong> from 3,500+ happy families</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="2">
+          <div class="hv-main media">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1100&q=80" alt="Students taking part in a classroom activity" />
+          </div>
+          <div class="hv-small media">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=80" alt="A young student reading a book" />
+          </div>
+
+          <div class="seal" aria-hidden="true">
+            <svg class="seal-text" viewBox="0 0 120 120">
+              <defs><path id="seal-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <text><textPath href="#seal-circle">ADMISSIONS OPEN • 2027–28 • VEDANTA •</textPath></text>
+            </svg>
+            <svg class="i"><use href="#i-sparkle"/></svg>
+          </div>
+
+          <div class="float-card fc-1">
+            <div class="fc-icon"><svg class="i"><use href="#i-award"/></svg></div>
+            <div><strong>98.7%</strong><small>Class XII Board Results 2026</small></div>
+          </div>
+          <div class="float-card fc-2">
+            <div class="fc-icon"><svg class="i"><use href="#i-calendar"/></svg></div>
+            <div><strong class="sm">Next Campus Tour</strong><small>Sat, 10 Oct · 10:00 AM</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-item">Academic Excellence</span>
+        <span class="marquee-item">STEM &amp; Robotics Labs</span>
+        <span class="marquee-item">Green Campus Award 2025</span>
+        <span class="marquee-item">National Olympiad Winners</span>
+        <span class="marquee-item">Performing Arts</span>
+        <span class="marquee-item">Global Exchange Programs</span>
+        <span class="marquee-item">Academic Excellence</span>
+        <span class="marquee-item">STEM &amp; Robotics Labs</span>
+        <span class="marquee-item">Green Campus Award 2025</span>
+        <span class="marquee-item">National Olympiad Winners</span>
+        <span class="marquee-item">Performing Arts</span>
+        <span class="marquee-item">Global Exchange Programs</span>
+      </div>
+    </div>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat"><div class="num"><span data-count="28">0</span><em>+</em></div><p>Years of legacy</p></div>
+          <div class="stat"><div class="num"><span data-count="3500">0</span><em>+</em></div><p>Students enrolled</p></div>
+          <div class="stat"><div class="num"><span data-count="180">0</span><em>+</em></div><p>Expert educators</p></div>
+          <div class="stat"><div class="num"><span data-count="98.7">0</span><em>%</em></div><p>Board exam results</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="av-1 media">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80" alt="The school building and courtyard" loading="lazy" />
+          </div>
+          <div class="av-2 media">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=700&q=80" alt="A teacher guiding students in class" loading="lazy" />
+          </div>
+          <div class="est-badge">
+            <strong>28</strong>
+            <span>Years of shaping<br />bright futures</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow reveal">About Vedanta</span>
+          <h2 class="title reveal" data-delay="1">A legacy of learning, a <em>vision</em> for tomorrow.</h2>
+          <p class="reveal" data-delay="2">Since 1998, Vedanta International School has helped children discover who they are and who they can become. We pair a rigorous CBSE curriculum with inquiry-led teaching, so students learn to think deeply, speak confidently and act with kindness.</p>
+
+          <ul class="checklist reveal" data-delay="3">
+            <li><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>CBSE curriculum with global best practices</li>
+            <li><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>1:18 teacher to student ratio</li>
+            <li><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>Smart classrooms and AI-ready labs</li>
+            <li><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>Value-based, inclusive culture</li>
+          </ul>
+
+          <div class="principal reveal" data-delay="4">
+            <div class="p-avatar">MK</div>
+            <div>
+              <p>“Every child carries a spark. Our job is to protect it, nurture it and help it light the way.”</p>
+              <strong>Dr. Meera Kapoor</strong>
+              <small>Principal, Vedanta International School</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ACADEMICS ================= -->
+    <section class="section section-white" id="academics">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow reveal">Academic Programs</span>
+          <h2 class="title reveal" data-delay="1">A thoughtful journey from <em>first steps</em> to graduation.</h2>
+          <p class="reveal" data-delay="2">Each stage is designed around how children learn best at that age, with clear milestones and personal attention.</p>
+        </div>
+
+        <div class="programs">
+          <article class="program reveal" data-delay="1">
+            <span class="p-num">01</span>
+            <div class="p-icon"><svg class="i"><use href="#i-leaf"/></svg></div>
+            <span class="p-age">Ages 3–6 · Nursery–UKG</span>
+            <h3>Pre-Primary</h3>
+            <p>Play-based, Montessori-inspired learning that builds curiosity, language and early numeracy in a warm, safe space.</p>
+            <a href="#contact" class="p-link">Learn more <svg class="i"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="program reveal" data-delay="2">
+            <span class="p-num">02</span>
+            <div class="p-icon"><svg class="i"><use href="#i-book"/></svg></div>
+            <span class="p-age">Grades I–V</span>
+            <h3>Primary</h3>
+            <p>Strong foundations in literacy, maths and science through projects, storytelling and hands-on exploration.</p>
+            <a href="#contact" class="p-link">Learn more <svg class="i"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="program reveal" data-delay="3">
+            <span class="p-num">03</span>
+            <div class="p-icon"><svg class="i"><use href="#i-flask"/></svg></div>
+            <span class="p-age">Grades VI–VIII</span>
+            <h3>Middle School</h3>
+            <p>Subject depth, coding, robotics and research skills, with mentors who help students find their strengths.</p>
+            <a href="#contact" class="p-link">Learn more <svg class="i"><use href="#i-arrow"/></svg></a>
+          </article>
+          <article class="program reveal" data-delay="4">
+            <span class="p-num">04</span>
+            <div class="p-icon"><svg class="i"><use href="#i-cap"/></svg></div>
+            <span class="p-age">Grades IX–XII</span>
+            <h3>Senior Secondary</h3>
+            <p>Science, Commerce and Humanities streams with board preparation, career counselling and university guidance.</p>
+            <a href="#contact" class="p-link">Learn more <svg class="i"><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY US ================= -->
+    <section class="section why" id="why">
+      <div class="container why-layout">
+        <div class="why-head">
+          <span class="eyebrow reveal">Why Vedanta</span>
+          <h2 class="title reveal" data-delay="1">Education that goes <em>beyond</em> the classroom.</h2>
+          <p class="reveal" data-delay="2">We design every day around how children actually learn: by doing, questioning, collaborating and reflecting.</p>
+          <div class="why-mini reveal" data-delay="3">
+            <div><strong>1:18</strong><span>Teacher to student ratio</span></div>
+            <div><strong>45+</strong><span>Clubs and activities</span></div>
+          </div>
+          <a href="#contact" class="btn btn-gold reveal" data-delay="4">Schedule a Visit <svg class="i"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="features">
+          <div class="feature reveal">
+            <div class="f-icon"><svg class="i"><use href="#i-sparkle"/></svg></div>
+            <h3>Experiential Learning</h3>
+            <p>Field trips, labs and real-world projects turn every lesson into something students experience first-hand.</p>
+          </div>
+          <div class="feature reveal" data-delay="1">
+            <div class="f-icon"><svg class="i"><use href="#i-cpu"/></svg></div>
+            <h3>STEM &amp; Robotics</h3>
+            <p>Dedicated innovation labs with robotics kits, 3D printers and coding programs from Grade III onwards.</p>
+          </div>
+          <div class="feature reveal">
+            <div class="f-icon"><svg class="i"><use href="#i-globe"/></svg></div>
+            <h3>Global Exposure</h3>
+            <p>Student exchanges, Model UN and international competitions that widen horizons early.</p>
+          </div>
+          <div class="feature reveal" data-delay="1">
+            <div class="f-icon"><svg class="i"><use href="#i-shield"/></svg></div>
+            <h3>Safe &amp; Secure Campus</h3>
+            <p>CCTV coverage, trained staff, RFID attendance and GPS-tracked transport for complete peace of mind.</p>
+          </div>
+          <div class="feature reveal">
+            <div class="f-icon"><svg class="i"><use href="#i-heart"/></svg></div>
+            <h3>Holistic Wellbeing</h3>
+            <p>On-campus counsellors, yoga, nutrition-planned meals and a full-time medical room.</p>
+          </div>
+          <div class="feature reveal" data-delay="1">
+            <div class="f-icon"><svg class="i"><use href="#i-users"/></svg></div>
+            <h3>Personal Mentorship</h3>
+            <p>Every student has a mentor who tracks progress, sets goals and partners closely with parents.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FACILITIES ================= -->
+    <section class="section" id="facilities">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow reveal">Campus &amp; Facilities</span>
+          <h2 class="title reveal" data-delay="1">Spaces designed to <em>inspire</em> every learner.</h2>
+          <p class="reveal" data-delay="2">A 12-acre green campus with modern infrastructure built for learning, creativity and play.</p>
+        </div>
+
+        <div class="bento">
+          <div class="tile t-1 media reveal">
+            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1200&q=80" alt="Students in a smart classroom" loading="lazy" />
+            <span class="tile-tag">120+ rooms</span>
+            <div class="tile-body"><h3>Smart Classrooms</h3><p>Interactive panels, ergonomic seating and natural light in every room.</p></div>
+          </div>
+          <div class="tile t-2 media reveal" data-delay="1">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1000&q=80" alt="Science laboratory equipment" loading="lazy" />
+            <span class="tile-tag">Physics · Chemistry · Biology</span>
+            <div class="tile-body"><h3>Science Labs</h3><p>Fully equipped labs for hands-on experiments and research.</p></div>
+          </div>
+          <div class="tile t-3 media reveal" data-delay="2">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=700&q=80" alt="Library bookshelves" loading="lazy" />
+            <div class="tile-body"><h3>Library</h3><p>25,000+ books and e-resources.</p></div>
+          </div>
+          <div class="tile t-4 media reveal" data-delay="3">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=700&q=80" alt="A humanoid robot" loading="lazy" />
+            <div class="tile-body"><h3>Robotics Lab</h3><p>AI, IoT and 3D printing.</p></div>
+          </div>
+          <div class="tile t-5 media reveal">
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1000&q=80" alt="Athletes on a running track" loading="lazy" />
+            <span class="tile-tag">Olympic-size pool</span>
+            <div class="tile-body"><h3>Sports Complex</h3><p>Football turf, athletics track, swimming pool and indoor courts.</p></div>
+          </div>
+          <div class="tile t-6 media reveal" data-delay="1">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1000&q=80" alt="Microphone on a stage" loading="lazy" />
+            <span class="tile-tag">800-seat auditorium</span>
+            <div class="tile-body"><h3>Performing Arts</h3><p>Music, dance and theatre studios with a professional auditorium.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ADMISSIONS ================= -->
+    <section class="section section-white" id="admissions">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Admissions 2027–28</span>
+          <h2 class="title reveal" data-delay="1">A simple, <em>transparent</em> admission process.</h2>
+          <p class="reveal" data-delay="2">Four clear steps from your first enquiry to your child's first day. Our admissions team guides you at every stage.</p>
+        </div>
+
+        <div class="adm-grid">
+          <div class="steps">
+            <div class="step reveal">
+              <div class="step-num">01</div>
+              <div><h3>Online Enquiry</h3><p>Fill in the enquiry form or call our admissions desk. We will share the prospectus and fee details within 24 hours.</p></div>
+            </div>
+            <div class="step reveal" data-delay="1">
+              <div class="step-num">02</div>
+              <div><h3>Campus Visit</h3><p>Take a guided tour of classrooms, labs and sports facilities, and meet our academic coordinators.</p></div>
+            </div>
+            <div class="step reveal" data-delay="2">
+              <div class="step-num">03</div>
+              <div><h3>Interaction &amp; Assessment</h3><p>A friendly, age-appropriate interaction for the child and a conversation with parents.</p></div>
+            </div>
+            <div class="step reveal" data-delay="3">
+              <div class="step-num">04</div>
+              <div><h3>Confirm Admission</h3><p>Complete documentation and fee submission. Welcome to the Vedanta family!</p></div>
+            </div>
+          </div>
+
+          <aside class="dates-card reveal" data-delay="2">
+            <span class="eyebrow">Key Dates</span>
+            <h3>Important dates for Session 2027–28</h3>
+            <ul class="dates">
+              <li><span>Registration opens</span><strong>01 Oct 2026</strong></li>
+              <li><span>Campus tours</span><strong>Every Saturday</strong></li>
+              <li><span>Interaction rounds</span><strong>Nov – Dec 2026</strong></li>
+              <li><span>First admission list</span><strong>15 Jan 2027</strong></li>
+              <li><span>Session begins</span><strong>01 Apr 2027</strong></li>
+            </ul>
+            <div class="dates-actions">
+              <a href="#contact" class="btn btn-gold">Apply Now <svg class="i"><use href="#i-arrow"/></svg></a>
+              <a href="#" class="btn btn-outline-light"><svg class="i"><use href="#i-download"/></svg> Prospectus</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow reveal">Parent Voices</span>
+          <h2 class="title reveal" data-delay="1">Loved by families across the <em>city</em>.</h2>
+        </div>
+
+        <div class="testi-grid">
+          <figure class="testi reveal">
+            <div class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></div>
+            <blockquote>“My daughter was shy when she joined. Two years later she is anchoring the annual day. The teachers truly know every child.”</blockquote>
+            <figcaption class="person"><span class="av" style="background:#1d3a66">AS</span><div><strong>Ananya Sharma</strong><small>Parent, Grade V</small></div></figcaption>
+          </figure>
+          <figure class="testi featured reveal" data-delay="1">
+            <div class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></div>
+            <blockquote>“The balance of academics and activities is rare. My son won a national robotics contest and still scored 96% in boards.”</blockquote>
+            <figcaption class="person"><span class="av" style="background:#b88d35">RV</span><div><strong>Rohit Verma</strong><small>Parent, Grade XII</small></div></figcaption>
+          </figure>
+          <figure class="testi reveal" data-delay="2">
+            <div class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></div>
+            <blockquote>“Safe campus, transparent communication and a genuinely caring culture. We could not have asked for a better start for our twins.”</blockquote>
+            <figcaption class="person"><span class="av" style="background:#6b4e2a">PN</span><div><strong>Priya Nair</strong><small>Parent, Grade II</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NEWS & EVENTS ================= -->
+    <section class="section section-white" id="news">
+      <div class="container">
+        <div class="news-head">
+          <div class="section-head">
+            <span class="eyebrow reveal">News &amp; Events</span>
+            <h2 class="title reveal" data-delay="1">What's happening on <em>campus</em>.</h2>
+          </div>
+          <a href="#" class="btn btn-ghost reveal" data-delay="2">View all events <svg class="i"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card reveal">
+            <div class="news-img media">
+              <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80" alt="Students presenting a science project" loading="lazy" />
+              <div class="news-date"><strong>18</strong><span>Oct</span></div>
+            </div>
+            <div class="news-body">
+              <div class="news-meta"><span><svg class="i"><use href="#i-clock"/></svg>9:00 AM</span><span><svg class="i"><use href="#i-pin"/></svg>Main Atrium</span></div>
+              <h3>Annual Science &amp; Innovation Fair 2026</h3>
+              <p>Over 200 student projects on climate, AI and space, judged by scientists and industry leaders.</p>
+            </div>
+          </article>
+          <article class="news-card reveal" data-delay="1">
+            <div class="news-img media">
+              <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" alt="Football on a green field" loading="lazy" />
+              <div class="news-date"><strong>25</strong><span>Oct</span></div>
+            </div>
+            <div class="news-body">
+              <div class="news-meta"><span><svg class="i"><use href="#i-clock"/></svg>8:00 AM</span><span><svg class="i"><use href="#i-pin"/></svg>Sports Complex</span></div>
+              <h3>Inter-School Football Championship</h3>
+              <p>Sixteen schools from across Haryana compete for the Vedanta Cup on our FIFA-grade turf.</p>
+            </div>
+          </article>
+          <article class="news-card reveal" data-delay="2">
+            <div class="news-img media">
+              <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80" alt="Festive lights at a cultural evening" loading="lazy" />
+              <div class="news-date"><strong>07</strong><span>Nov</span></div>
+            </div>
+            <div class="news-body">
+              <div class="news-meta"><span><svg class="i"><use href="#i-clock"/></svg>5:00 PM</span><span><svg class="i"><use href="#i-pin"/></svg>Auditorium</span></div>
+              <h3>Diwali Mela &amp; Cultural Evening</h3>
+              <p>Music, dance, food stalls and a student-run charity bazaar. Families warmly invited.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT / ENQUIRY ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <span class="eyebrow">Get in Touch</span>
+            <h2>Begin your child's <em>Vedanta</em> journey today.</h2>
+            <p>Share a few details and our admissions counsellor will call you within one working day.</p>
+
+            <ul class="info-list">
+              <li><span class="ic"><svg class="i"><use href="#i-pin"/></svg></span><div><small>Campus</small><strong>Narwana, District Jind, Haryana 126116</strong></div></li>
+              <li><span class="ic"><svg class="i"><use href="#i-phone"/></svg></span><div><small>Admissions Helpline</small><strong><a href="tel:+919876543210">+91 98765 43210</a></strong></div></li>
+              <li><span class="ic"><svg class="i"><use href="#i-mail"/></svg></span><div><small>Email</small><strong><a href="mailto:admissions@vedantaschool.edu.in">admissions@vedantaschool.edu.in</a></strong></div></li>
+              <li><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><div><small>Office Hours</small><strong>Mon – Sat · 8:00 AM – 4:00 PM</strong></div></li>
+            </ul>
+          </div>
+
+          <form class="form" id="enquiry-form">
+            <h3>Admission Enquiry</h3>
+            <div class="field">
+              <label for="pname">Parent's name</label>
+              <input id="pname" name="pname" type="text" placeholder="e.g. Rahul Mehta" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" required pattern="[0-9+\s\-]{10,15}" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email" />
+            </div>
+            <div class="field">
+              <label for="grade">Admission for</label>
+              <select id="grade" name="grade" required>
+                <option value="" disabled selected>Select grade</option>
+                <optgroup label="Pre-Primary"><option>Nursery</option><option>LKG</option><option>UKG</option></optgroup>
+                <optgroup label="Primary"><option>Grade I</option><option>Grade II</option><option>Grade III</option><option>Grade IV</option><option>Grade V</option></optgroup>
+                <optgroup label="Middle"><option>Grade VI</option><option>Grade VII</option><option>Grade VIII</option></optgroup>
+                <optgroup label="Senior"><option>Grade IX</option><option>Grade X</option><option>Grade XI</option><option>Grade XII</option></optgroup>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="msg">Message (optional)</label>
+              <textarea id="msg" name="msg" placeholder="Tell us anything we should know about your child"></textarea>
+            </div>
+            <button type="submit" class="btn btn-navy btn-lg"><span>Request a Callback</span> <svg class="i"><use href="#i-send"/></svg></button>
+            <p class="form-note">We respect your privacy. Your details are never shared.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#crest"/></svg>
+            <span class="logo-text"><strong>Vedanta</strong><span>International School</span></span>
+          </a>
+          <p>Nurturing curious, confident and compassionate learners since 1998. Affiliated to CBSE, New Delhi. Narwana, District Jind, Haryana 126116.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram"><svg class="i"><use href="#i-instagram"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg class="i"><use href="#i-facebook"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg class="i"><use href="#i-youtube"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg class="i"><use href="#i-linkedin"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#news">News &amp; Events</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Academics</h4>
+          <ul>
+            <li><a href="#academics">Pre-Primary</a></li>
+            <li><a href="#academics">Primary</a></li>
+            <li><a href="#academics">Middle School</a></li>
+            <li><a href="#academics">Senior Secondary</a></li>
+            <li><a href="#">CBSE Disclosure</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stay Updated</h4>
+          <p>Get school news, events and admission updates in your inbox.</p>
+          <form class="newsletter" id="newsletter-form">
+            <input type="email" placeholder="Your email" aria-label="Email address" required />
+            <button type="submit" aria-label="Subscribe"><svg class="i"><use href="#i-arrow"/></svg></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Vedanta International School. All rights reserved.</p>
+        <div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Mandatory Disclosure</a></div>
+      </div>
+    </div>
+    <div class="footer-big" aria-hidden="true">Vedanta</div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Back to top"><svg class="i"><use href="#i-arrow-up"/></svg></button>
+
+  <div class="toast" role="status" aria-live="polite">
+    <span class="ic"><svg class="i"><use href="#i-check"/></svg></span>
+    <span class="toast-text">Thank you! Our admissions team will call you shortly.</span>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
